@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "amplifyrestapifunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/home": {
+      "name": "/home",
+      "lambdaFunction": "amplifyhomeapifunction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
